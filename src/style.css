@@ -1,7 +1,20 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 body {
   margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.main {
+  padding-bottom: 50px;
 }
 
 h1,
@@ -23,12 +36,6 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
-}
-
-:root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .navigation-links {
@@ -101,6 +108,8 @@ p {
 footer {
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 100px;
+  background: var(--secondary-color);
 }
 
 @media (max-width: 576px) {
