@@ -10,7 +10,7 @@ body {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 224px 20px 100px;
 }
 
 .main {
@@ -106,7 +106,8 @@ p {
 }
 
 .contact {
-  padding-bottom: 50px;
+  padding: 50px 2px;
+  background: var(--secondary-color);
 }
 
 div.container.about {
@@ -117,9 +118,11 @@ footer {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 100px;
-  background: var(--secondary-color);
 }
 
+.mb-5 {
+  margin-bottom: 0px;
+}
 @media (max-width: 576px) {
   h2 {
     font-size: 32px;
@@ -140,5 +143,8 @@ footer {
   }
   p {
     text-align: center;
+  }
+  .hero {
+    padding: 126px 0px 2px;
   }
 }
