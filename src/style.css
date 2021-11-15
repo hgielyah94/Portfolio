@@ -145,6 +145,17 @@ footer {
     text-align: center;
   }
   .hero {
-    padding: 126px 0px 2px;
+    padding: 126px 5px 2px;
+  }
+  .intro-subheading {
+    padding: 0px 2px;
+  }
+  p.about {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 22px;
+  }
+  div.container.about {
+    padding-top: 126px;
   }
 }
