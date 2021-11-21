@@ -95,21 +95,21 @@
             <div>
                 <h2 class="form">Fancy a chat?<br />Whey aye!</h2>
             </div>
-            <div class="container form">
+            <div class="container form" id="form">
                     <div class="row">
                         <div class="col-25">
-                            <label>First Name</label>
+                            <label class="firstlabel">*First Name</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" class="firstname" placeholder="Enter text here...">
+                            <input type="text" id="firstname" placeholder="Enter text here...">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-25">
-                            <label>Email Address</label>
+                            <label>*Email Address</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" class="emailaddress" placeholder="Enter text here...">
+                            <input type="text" id="emailaddress" placeholder="Enter text here...">
                         </div>
                     </div>
                     <div class="row">
@@ -122,7 +122,7 @@
                     </div>
                     <div class="mt-5 button">
                         <button class="form-link"
-                            title="contact-form" onclick="SubmitForm()">Submit Form</button>
+                            title="contact-form" onclick="submitForm()">Submit Form</button>
                     </div>
                     </div>
                 </form>

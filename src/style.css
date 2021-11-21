@@ -149,6 +149,11 @@ label {
   margin-top: 20px;
 }
 
+label.firstlabel {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
 div.mt-5.button {
   margin-top: 20px !important;
 }
