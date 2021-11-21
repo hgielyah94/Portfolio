@@ -8,81 +8,98 @@
     <meta name="description"
         content="Hayleigh is a front-end developer based in Newcastle. Check out her projects and contact her for job inquiries.">
     <title>Hayleigh - Front-end Developer | Home</title>
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
+    
+    <!-- My Stylesheet -->
     <link href="src/style.css" rel="stylesheet" type="text/css" />
+    
+    <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/9ce37e29dc.js" crossorigin="anonymous"></script>
+    
+    <!-- Webfont Adobe Typekit -->
+    <link rel="stylesheet" href="https://use.typekit.net/ksf3hso.css">
+    
+    <!-- Title Font Import -->
+    <style type="text/css">
+        @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=eb750db7-1ba0-4d69-be4c-791a287b66d6&fontids=923426");
+    
+        @font-face {
+        font-family: "Caslon Graphique W01 D";
+        src: url("Fonts/923426/34f12be4-654d-4ff7-8d14-4b512344ae82.woff2") format("woff2"), url("Fonts/923426/864fce1c-5901-4ea0-9d79-8f7819556598.woff") format("woff");
+        }
+    </style>
 </head>
+
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="/" title="Homepage">Hayleigh</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/" title="Homepage">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about.html" title="About Hayleigh">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about.html#contact" title="Contact Hayleigh">Contact</a>
-                </li>
-            </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/" title="Homepage"><img src="images/winpenny design logo.png" class="header-logo"
+                    alt="header-logo" /></a>
+    
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/" title="Homepage">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/about.html"
+                                    title="About Hayleigh">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about.html#contact" title="Contact Hayleigh">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
     <div class="hero"> 
-        <h2 class="text-center">👋 Hi! I am</h2>
-        <h1 class="text-center">Hayleigh</h1>
-        <h3 class="text-center intro-subheading">Front End Developer based in Newcastle, England 🇬🇧</h3>
-        <div class="navigation-links mb-5">
-            <a href="about.html#contact" class="contact-link">Contact Me</a>
-            <a href="about.html" class="about-link">About Me</a>
-        </div>
+        <h3 class="about">HELLO, I'M HAYLEIGH</h3>
+        <h1 class="text-center">Howay in pet,<br />nice to meet you!</h1>
+        <h4>I am a Graphic & Web Designer <br />based in Newcastle, UK</h4>
     </div>
     
     <div class="container main">
-        <div class="row mt-5">
-            <div class="col-md-6"><img src="images/dictionary-app.png" class="img-fluid rounded homepage-photo" alt="Dictionary Project" ></div>
-            <div class="col-md-6 project-description">
+        <div class="row mt-5 top">
+            <div class="col-xl-6"><img src="images/dictionary-app.png" class="img-fluid homepage-photo" alt="Dictionary Project" ></div>
+            <div class="col-xl-6 project-description">
                 <h2 class="mb-3">Dictionary App</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione
-                    veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat
-                    explicabo eum dolore.</p>
+                <p class="project-desc">This project was created whilst studying with SheCodes and the focus of this was to learn React. Whilst challenging, this project was incredibly enjoyable! The dictionary includes full definitions, synonyms and photos.</p>
                 <div class="mt-5">
                     <a href="https://unruffled-ride-88b247.netlify.app" class="project-link" target="blank" title="Dictionary Project">Click here to visit</a>
                 </div>
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-md-6"><img src="images/weather-app-photo.png" class="img-fluid rounded homepage-photo"
+            <div class="col-xl-6"><img src="images/weather-app-photo.png" class="img-fluid homepage-photo"
                     alt="Weather Project"></div>
-            <div class="col-md-6 project-description">
+            <div class="col-xl-6 project-description">
                 <h2 class="mb-3">Weather App</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione
-                    veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat
-                    explicabo eum dolore.</p>
+                <p class="project-desc">I am incredibly proud of my Weather App, both in design and functionality. I created this originally with JavaScript and reconfigured the app with React. This is another of my SheCodes projects.</p>
                 <div class="mt-5">
                     <a href="https://quizzical-tereshkova-37083e.netlify.app/#" class="project-link" title="Weather Project" target="blank">Click here to visit</a>
                 </div>
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-md-6"><img src="images/tgl-blog.png" class="img-fluid rounded homepage-photo" alt="Blog Project"></div>
-            <div class="col-md-6 project-description">
+            <div class="col-xl-6"><img src="images/tgl-blog.png" class="img-fluid homepage-photo" alt="Blog Project"></div>
+            <div class="col-xl-6 project-description">
                 <h2 class="mb-3">Personal Blog</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione
-                    veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat
-                    explicabo eum dolore.</p>
+                <p class="project-desc">I wanted to invest time into blogging. I spent time creating a logo for this and I wanted a site to match. I've used Bootstrap to ensure this is responsive and I'm currently learning how to convert this to PHP for Wordpress.</p>
                 <div class="mt-5">
                     <a href="https://thatgeordielass.co.uk/" class="project-link" title="TGL Blog" target="blank">Click here to visit</a>
                 </div>
@@ -90,11 +107,21 @@
         </div>
         </div>
 
-        <footer class="bg-light">
-            <h3><a href="https://facebook.com" class="facebook-link" title="social-link" target="blank"><i class="fab fa-facebook-square"></a></i> <a href="https://instagram.com" class="instagram-link" title="social-link" target="blank"><i class="fab fa-instagram"></i></a> <a href="https://twitter.com" class="twitter-link" title="social-link" target="blank"><i class="fab fa-twitter"></i></a></h3>
-            <br />
-            <a href="https://github.com/hgielyah94/Portfolio" class="repo-link" title="Github Repository" target="blank">Github
-                Repository</a></footer>
+        <footer>
+            <div class="container">
+            <div class="row">
+            <div class="col-6">
+            <a class="footer-brand" href="/" title="Footer"><img src="images/winpenny design icon cream-09-09.png" class="footer-logo"
+                    alt="footer-logo" /></a>
+            </div>
+            <div class="col-6">
+            <h3 class="social-links"><a href="https://facebook.com" class="facebook-link" title="social-link" target="blank"><i class="fab fa-facebook-square"></a></i> <a href="https://instagram.com" class="instagram-link" title="social-link" target="blank"><i class="fab fa-instagram"></i></a> <a href="https://twitter.com" class="twitter-link" title="social-link" target="blank"><i class="fab fa-twitter"></i></a>
+                <br /><a href="https://github.com/hgielyah94/Portfolio" class="repo-link" title="Github Repository" target="blank">Github
+                Repository</a></h3>
+            </div>
+            </div>
+            </div>
+        </footer>
 
 </body>
 </html>
